@@ -25,15 +25,15 @@ subtitle:
       # - Sentence 2
       # - Sentence 3
       # - Sentence 4
-    typeSpeed: 100              # typing speed (milliseconds/character)
-    backSpeed: 50               # backspacing speed (milliseconds/character)
-    backDelay: 2000             # time before backspacing (milliseconds)
-    startDelay: 300             # time before typing starts (milliseconds)
-    loop: true                  # loop through the strings
-    shuffle: true               # randomize the order of strings
-    showCursor: true            # show the typing cursor
-    cursorChar: "|"             # character for cursor
-    smartBackspace: false       # only backspace what doesn't match the previous string
+    typeSpeed: 100 # typing speed (milliseconds/character)
+    backSpeed: 50 # backspacing speed (milliseconds/character)
+    backDelay: 2000 # time before backspacing (milliseconds)
+    startDelay: 300 # time before typing starts (milliseconds)
+    loop: true # loop through the strings
+    shuffle: true # randomize the order of strings
+    showCursor: true # show the typing cursor
+    cursorChar: "|" # character for cursor
+    smartBackspace: false # only backspace what doesn't match the previous string
 
 banner: "/images/banner.webp" # which means themes/reimu/source/images/banner.webp
 # You can also write it in the form of the following url
@@ -54,7 +54,6 @@ favicon: "/images/favicon.ico" # which means themes/reimu/source/images/favicon.
 # You can also write it in the form of the following url
 # favicon: "https://example.com"
 
-# 头像占位：请将头像文件放入 source/_data/avatar/avatar.png
 avatar: "avatar.png" # which means source/_data/avatar/avatar.png
 
 # Control the display of the post cover
@@ -114,7 +113,7 @@ footer:
 # sidebar: right # deprecated, use sidebar.position instead
 sidebar:
   position: right
-  menu: true  # whether to show the sidebar menu button, ignored on mobile devices
+  menu: true # whether to show the sidebar menu button, ignored on mobile devices
   article:
     show_common: true # whether to show common sidebar, ignored on mobile devices
 
@@ -168,7 +167,7 @@ show_update_time: false # If you want to show the update time, please set this t
 # Summary content
 summary:
   enable: false
-  style: 'subtitle' # 'subtitle' or 'blockquote'
+  style: "subtitle" # 'subtitle' or 'blockquote'
 
 # Internationalization
 i18n:
@@ -209,7 +208,7 @@ custom_font:
   enable: false
   article:
     # - css: https://fontsapi.zeoseven.com/292/main/result.css
-      # name: LXGW WenKai
+    # name: LXGW WenKai
   code:
 
 # https://fonts.google.com/
