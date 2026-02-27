@@ -3,17 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+# 站点基础信息：用于标题、SEO 与链接生成
+title: "alicesainta's 技术小站"
+subtitle: "TypeScript / Vue 实践与工程化思考"
+description: "记录 TypeScript / Vue 的实践与前端工程化思考，专注结构化与可维护的 UI 交互。"
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: "alicesainta-sketch"
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+## 站点正式地址（用于生成永久链接与站内跳转）
+url: https://dashing-kashata-cafc0a.netlify.app
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

@@ -4,6 +4,7 @@
 theme_version_check: true
 theme_config_check: true
 # main menu navigation
+# 站点导航：只保留首页 / 归档 / 关于
 # for more icon information, please visit https://github.com/D-Sketon/hexo-theme-reimu/issues/30
 menu:
   - name: home
@@ -14,9 +15,6 @@ menu:
     icon:
   - name: about
     url: /about
-    icon:
-  - name: friend
-    url: /friend
     icon:
 
 subtitle:
@@ -56,7 +54,8 @@ favicon: "/images/favicon.ico" # which means themes/reimu/source/images/favicon.
 # You can also write it in the form of the following url
 # favicon: "https://example.com"
 
-avatar: "avatar.webp" # which means source/_data/avatar/avatar.webp
+# 头像占位：请将头像文件放入 source/_data/avatar/avatar.png
+avatar: "avatar.png" # which means source/_data/avatar/avatar.png
 
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
@@ -336,7 +335,8 @@ comment:
     zh-TW: 說些什麼吧！
     ja: コメントを残す
     pt-BR: Deixe um comentário
-  default: waline # default comment system, when you enable multiple comment systems
+  # 关闭评论：默认系统留空，且所有系统均为 enable: false
+  default: "" # default comment system, when you enable multiple comment systems
 
 # valine comment system. https://valine.js.org
 # version 1.5.1
@@ -451,7 +451,8 @@ algolia_search:
     per_page: 10
 
 generator_search:
-  enable: false
+  # 本地搜索：主题内置生成器开关
+  enable: true
   field: post
   content: true
 
