@@ -1,31 +1,23 @@
-# reimu-template
+# alicesainta's 技术小站
 
-<img alt="theme version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FD-Sketon%2Freimu-template%2Frefs%2Fheads%2Fmain%2Fpackage.json&query=%24.dependencies.hexo-theme-reimu&label=theme version">
+基于 Hexo + Reimu 的个人技术博客，记录 TypeScript/Vue 工程实践与面试复盘。
 
+站点地址：<https://alicesainta-blog.netlify.app/>
 
-Template for [hexo-theme-reimu](https://github.com/D-Sketon/hexo-theme-reimu)
-
-## Usage
+## 使用
 
 ```bash
-git clone https://github.com/D-Sketon/reimu-template
-cd reimu-template
-npm install
-npm run server
+pnpm install
+pnpm run server
 ```
 
-## Features
+## 构建
 
-The following features are pre-supported:
+```bash
+pnpm build
+```
 
-- support LaTeX (@reimujs/hexo-renderer-markdown-it-plus)
-- support mermaid (hexo-filter-mermaid-diagrams)
-- support git (hexo-deployer-git)
-- support rss (hexo-generator-feed)
-- support Algolia search (@reimujs/hexo-algoliasearch)
+## 说明
 
-## How to use
-
-The configuration of Hexo is in `_config.yml`  
-The configuration of Reimu is in `_config.reimu.yml`  
-You can modify the configuration according to your needs
+- Hexo 配置：`_config.yml`
+- Reimu 配置：`_config.reimu.yml`
