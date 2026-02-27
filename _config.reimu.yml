@@ -50,7 +50,8 @@ banner_srcset:
     - src: "/images/banner.webp"
       media: "(min-width: 800px)"
 
-favicon: "/images/favicon.ico" # which means themes/reimu/source/images/favicon.ico
+# 浏览器标签页图标：使用站点资源中的 reimu.png
+favicon: "/images/reimu.png" # which means source/images/reimu.png
 # You can also write it in the form of the following url
 # favicon: "https://example.com"
 
