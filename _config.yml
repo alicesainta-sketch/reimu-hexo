@@ -6,7 +6,7 @@
 # 站点基础信息：用于标题、SEO 与链接生成
 title: "alicesainta's 技术小站"
 subtitle: "TypeScript / Vue 实践与工程化思考"
-description: "记录 TypeScript / Vue 的实践与前端工程化思考，专注结构化与可维护的 UI 交互。"
+description: "专注结构化与可维护的 UI 交互。"
 keywords:
 author: "alicesainta-sketch"
 language: zh-CN
@@ -39,7 +39,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -49,20 +49,20 @@ syntax_highlighter: highlight.js
 highlight:
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -82,7 +82,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -103,7 +103,7 @@ theme: reimu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: ""
 
 feed:
   enable: true
@@ -113,7 +113,7 @@ feed:
   hub:
   content:
   content_limit: 140
-  content_limit_delim: ' '
+  content_limit_delim: " "
   order_by: -date
   icon: icon.png
   autodiscovery: true
