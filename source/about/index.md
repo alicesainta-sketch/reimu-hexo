@@ -11,3 +11,5 @@ Frontend developer building clean and structured web interfaces.
 Focused on TypeScript / Vue / UI Interaction.
 
 Working on personal projects and exploring better UI structure.
+
+GitHub: [alicesainta-sketch](https://github.com/alicesainta-sketch)
