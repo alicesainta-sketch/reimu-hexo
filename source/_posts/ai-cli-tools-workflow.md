@@ -7,7 +7,7 @@ tags:
   - 效率
   - AI
   - CLI
-cover: /images/covers/cover-02.jpg
+cover: /images/covers/cover-03.jpg
 comments: false
 ---
 
